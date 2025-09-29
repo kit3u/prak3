@@ -1,39 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Практична №3 — Картка блогу</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Blog preview card</title>
+
 </head>
+
 <body>
-  <main class="page">
-    <section class="card">
-  
-      <div class="card_image-wrap">
-        <img src="assets/images/Blog Image.png" alt="Cover" class="card_image">
+  <div class="card">
+
+    <figure class="card__picture">
+      <img src="assets/images/Blog Image.png" alt="imagen portada" class="card__img" />
+    </figure>
+
+    <div class="card__texts">
+      <h6 class="card__text">HTML & CSS</h6>
+      <time class="card__date" datetime="2023-12-21T12:00:00-05:00">Публікація 22 Вересня 2025</time>
+      <h3 class="card__text1-format">Практична №3</h3>
+      <p class="card__text2"> Мета практичної роботи полягає в тому, щоб налаштувати середовище розробки VS Code, а також реалізувати картку блоку для вдосконалення фундаментальних навичок з HTML та CSS.
+      </p>
+      <div class="card__person">
+        <img src="assets/images/avatar_cat.png" alt="person pic" class="card__person__img">
+
+        <h3 class="card__person__name">Пашинська Вікторія</h3>
       </div>
-
-      <div class="card_content">
-        <div class="card_meta">
-          <span class="card_tag">HTML &amp; CSS</span>
-          <span class="card_date">Публікація 22 Вересня 2025</span>
-        </div>
-
-        <h2 class="card_title">Практична №3</h2>
-
-        <p class="card_desc">
-          Мета практичної роботи полягає в тому, щоб налаштувати середовище розробки VS Code,
-          а також реалізувати картку блогу для вдосконалення фундаментальних навичок з HTML та CSS.
-        </p>
-
-        <div class="card_author">
-          <img src="assets/images/avatar_cat.png" alt="Author avatar" class="card_avatar">
-          <div class="card_author-info">
-            <div class="card_author-name">&lt; Пашинська Вікторія &gt;</div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+    </div>
+  </div>
 </body>
+
+</html>
